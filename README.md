@@ -309,6 +309,3 @@ System.out.println(", Branch: " + rs.getString("branch"));
 ```
 **Run the program and you will get the required result**
   
-## Authors
-- [@Hasan Koser](https://www.github.com/HASH-002)
-- [@Harshini Pillarisetti](https://github.com/Harshi194)
