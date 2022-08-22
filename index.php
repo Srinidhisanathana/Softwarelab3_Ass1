@@ -55,31 +55,31 @@ if(isset($_POST['name'])){
 <body>
 
     <div class="blue">
-        <h1>Harshini & Hasan</h1>
-        <h3>BT19CSE035 & BT19CSE036</h3>
+        <h1>Srinidhi Sanathana</h1>
+        <h3>BT20CSE106</h3>
         <p>Students of Visvesvaraya National Institute of Technology</p>
-        <p>Pre Final year students pursuing Computer Science and Engineering</p>
+        <p>Third students pursuing Computer Science and Engineering</p>
         <hr>
         <h4>Skills</h4>
-        <p>Coding Languages : C, C++</p>
+        <p>Programming Languages : C, C++</p>
         <p>Basics of HTML, CSS, PHP, MySQL</p>
     </div>
     <div class="mid">
         <h3 class="midhead">About the assignment</h3>
-        <p class="midpara">We are using LAMP Stack (Linux, Apache Server, MySql, PHP) for this assignment. <br>We are using PHP and
+        <p class="midpara">We are creating a website in php & mysql using LAMP STACK. <br>We are using PHP and
             MySql in the Contact Form given below.<br> Website is running on Apache Server on Linux Operating System.
         </p>
     </div>
     <?php
         if($insert == true){
-            echo "Thanks for submitting your form. We will connect with you soon";
+            echo "Your insertion is submitted. We will connect with you soon";
         }
     ?>
     <div class="blue">
         <h3>Contact Form</h3>
         <form action="index.php" method="post">
 
-            <input type="text" name="name" id="name" placeholder="Enter your Name"><br><br>
+            <input type="text" name="name" id="name" placeholder="Enter Name"><br><br>
             <input type="email" name="email" id="email" placeholder="Enter your Email"><br><br>
             <textarea name="message" id="message" placeholder="Enter your Message" rows="10" cols="30"></textarea><br><br>
             
