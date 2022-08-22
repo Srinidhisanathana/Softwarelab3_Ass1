@@ -1,16 +1,17 @@
+
 body{
-    background-color: white;
+    background-color: black;
     text-align: center;
-    font-family: Comfortaa;
-    color: rgb(109, 94, 128);
-    width: 56%;
-    margin-left: 22%;
+    font-family: Monospace;
+    color: rgb(230, 232, 160);
+    width: 100%;
+    margin-left: 0%;
     align-self: center;
-    padding: 0;
+    padding: 1;
 }
 h1{
-    font-family: 'Style Script', cursive;
-    color: rgb(110, 97, 122);
+    font-family: 'Style Script', Fantasy;
+    color: rgb(100, 187, 12);
 }
 
 hr {
@@ -21,7 +22,7 @@ hr {
     border-color: #c2d6d6;
   }
 .blue{
-    background-color: rgb(231, 225, 247);
+    background-color: rgb(27, 25, 24);
     padding-top: 3%;
     padding-bottom: 3%;
     margin: 0;
