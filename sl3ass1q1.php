@@ -63,6 +63,8 @@ if(isset($_POST['name'])){
         <h4>Skills</h4>
         <p>Programming Languages : C, C++</p>
         <p>Basics of HTML, CSS, PHP, MySQL</p>
+        <h4>Projects</h4>
+        <p>Heap Mnagement</p>
     </div>
     <div class="mid">
         <h3 class="midhead">About the assignment</h3>
