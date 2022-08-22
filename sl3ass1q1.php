@@ -5,7 +5,7 @@ if(isset($_POST['name'])){
     // Set connection variables
     $server = "localhost";
     $username = "coder";
-    $password = "hasan786";
+    $password = "srini123";
     $db = "form";
 
     // Create a database connection
