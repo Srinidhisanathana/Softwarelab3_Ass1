@@ -111,7 +111,7 @@ SELECT * FROM info;**
 ## Deployment
 To run this website go to web browser and open the following link
 ```bash
-  localhost/assign/index.php
+  localhost/project1/index.php
 ```
 ## Tech Stack
 **Front-end:** HTML5, CSS3 \
