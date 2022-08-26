@@ -68,7 +68,7 @@ Create database and table:
 ```bash
 CREATE DATABASE crud;
 USE crud;
-CREATE TABLE form 
+CREATE TABLE info 
     (id INT NOT NULL AUTO_INCREMENT, 
     name VARCHAR(50) NOT NULL, 
     address VARCHAR(150) NOT NULL, 
@@ -106,7 +106,7 @@ In the html if($insert == true) show thank you message.
 Styling of the website is done using css in style.css
 
 **Check if the submitted values inserted successfully using the command on sql command line:
-SELECT * FROM form;**
+SELECT * FROM info;**
   
 ## Deployment
 To run this website go to web browser and open the following link
