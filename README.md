@@ -1,6 +1,6 @@
 # Softwarelab3_Ass1
 [//]: <> (Question 1)
-# Portfolio Website
+
 Website made using LAMP Stack
 
 ## Installation
@@ -66,13 +66,12 @@ mysql -u user -p
 ```
 Create database and table:
 ```bash
-CREATE DATABASE form;
-USE form;
+CREATE DATABASE crud;
+USE crud;
 CREATE TABLE form 
     (id INT NOT NULL AUTO_INCREMENT, 
     name VARCHAR(50) NOT NULL, 
-    email VARCHAR(50) NOT NULL, 
-    message VARCHAR(100) NOT NULL,
+    address VARCHAR(150) NOT NULL, 
     PRIMARY KEY (id)
     );
 ```
@@ -86,11 +85,10 @@ $con = new mysqli($server, $username, $password, $database);
 
 Get the values from teh submitted form using: \
 $name = $_POST["name"]; \
-$email = $_POST["email"]; \
-$message = $_POST["message"];
+$address = $_POST["address"]; \
 
 SQL Query to insert the values into the database: \
-$sql = "INSERT INTO data (name, email, message) VALUES ('$name', '$email', '$message');";
+$sql = "INSERT INTO data (name, address) VALUES ('$name', '$address');";
 
 Execute the query: \
 $con->query($sql)
